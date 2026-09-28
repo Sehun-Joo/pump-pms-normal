@@ -1,0 +1,426 @@
+[
+  {
+    "name": "* this game does not exist *",
+    "aliases": [
+      "this game does not exist"
+    ],
+    "artist": "litmus",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Fracture Temporelle",
+    "aliases": [],
+    "artist": "overjoy|hima|HyuN",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Rush-More",
+    "aliases": [
+      "rushmore"
+    ],
+    "artist": "litmus",
+    "basis": "User supplied",
+    "count": 3,
+    "levels": [
+      "25",
+      "33",
+      "40"
+    ]
+  },
+  {
+    "name": "Giselle",
+    "aliases": [],
+    "artist": "Widowmaker",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Destr0yer",
+    "aliases": [
+      "destroyer"
+    ],
+    "artist": "削除|sakuzyo",
+    "basis": "User supplied; title corrected to Destr0yer",
+    "note": "Destr0yer by Sakuzyo; not Destroyer by Tlahuizcalpantecuhtli.",
+    "count": 1,
+    "levels": [
+      "45+"
+    ]
+  },
+  {
+    "name": "iRELLiA",
+    "aliases": [],
+    "artist": "HyuN",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "STAGER",
+    "aliases": [],
+    "artist": "Ras",
+    "basis": "User supplied",
+    "count": 2,
+    "levels": [
+      "28",
+      "45"
+    ]
+  },
+  {
+    "name": "Poppin' Shower",
+    "aliases": [
+      "poppin shower"
+    ],
+    "artist": "P\\*Light",
+    "basis": "User supplied",
+    "count": 3,
+    "levels": [
+      "25",
+      "42",
+      "44"
+    ]
+  },
+  {
+    "name": "PUPA",
+    "aliases": [],
+    "artist": "モリモリあつし|morimori",
+    "basis": "User supplied",
+    "count": 1,
+    "levels": [
+      "38"
+    ]
+  },
+  {
+    "name": "Acquire",
+    "aliases": [],
+    "artist": "ryhki",
+    "basis": "User supplied",
+    "count": 1,
+    "levels": [
+      "45"
+    ]
+  },
+  {
+    "name": "Aragami",
+    "aliases": [],
+    "artist": "xi",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "R.I.P.",
+    "aliases": [],
+    "artist": "eicateve",
+    "basis": "User supplied",
+    "count": 1,
+    "levels": [
+      "44"
+    ]
+  },
+  {
+    "name": "GOODBOUNCE",
+    "aliases": [],
+    "artist": "EBIMAYO",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "MilK",
+    "aliases": [],
+    "artist": "モリモリあつし|morimori",
+    "basis": "User supplied",
+    "count": 2,
+    "levels": [
+      "26",
+      "35"
+    ]
+  },
+  {
+    "name": "GOODTEK",
+    "aliases": [],
+    "artist": "EBIMAYO",
+    "basis": "User supplied",
+    "count": 2,
+    "levels": [
+      "30",
+      "44"
+    ]
+  },
+  {
+    "name": "ENERGY SYNERGY MATRIX",
+    "aliases": [],
+    "artist": "Tanchiky",
+    "basis": "User supplied",
+    "count": 1,
+    "levels": [
+      "43"
+    ]
+  },
+  {
+    "name": "CO5M1C R4ILR0AD",
+    "aliases": [
+      "cosmic railroad"
+    ],
+    "artist": "kanone",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Altale",
+    "aliases": [],
+    "artist": "削除|sakuzyo",
+    "basis": "User supplied",
+    "count": 2,
+    "levels": [
+      "36",
+      "45+"
+    ]
+  },
+  {
+    "name": "Re:End of a Dream",
+    "aliases": [
+      "re:end"
+    ],
+    "artist": "uma|モリモリあつし",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "mopemope",
+    "aliases": [
+      "もぺもぺ"
+    ],
+    "artist": "LeaF",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Kokugen Kairou Labyrinth",
+    "aliases": [
+      "刻限回廊ラビリンス",
+      "kokugen"
+    ],
+    "artist": "ANE|2riA|Λ",
+    "basis": "User supplied",
+    "source": "https://wikiwiki.jp/piujpn/刻限回廊ラビリンス",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "F(R)IEND",
+    "aliases": [
+      "F℟IEND",
+      "friend",
+      "fiend",
+      "F(R)END"
+    ],
+    "artist": "D.AAN|Farhan|D.ANN",
+    "basis": "User supplied; alias verified",
+    "source": "https://pumpitup.fandom.com/wiki/F%28R%29IEND",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Life is PIANO",
+    "aliases": [],
+    "artist": "Junk",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "conflict",
+    "aliases": [],
+    "artist": "siromaru.*cranky",
+    "basis": "User supplied",
+    "count": 5,
+    "levels": [
+      "13",
+      "25",
+      "27",
+      "39"
+    ]
+  },
+  {
+    "name": "Reality",
+    "aliases": [],
+    "artist": "SHK",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Mahika",
+    "aliases": [],
+    "artist": "Musical Ghost",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "FREEDOM DiVE",
+    "aliases": [
+      "FREEDOM DiVE↓"
+    ],
+    "artist": "xi",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "L",
+    "aliases": [
+      "L (PIU Edit)"
+    ],
+    "artist": "Ice",
+    "basis": "User supplied",
+    "note": "Original BMS L; Pump uses L (PIU Edit).",
+    "count": 1,
+    "levels": [
+      "32"
+    ]
+  },
+  {
+    "name": "NightTheater",
+    "aliases": [
+      "night theater"
+    ],
+    "artist": "わかどり|wakadori",
+    "basis": "User supplied",
+    "count": 4,
+    "levels": [
+      "6",
+      "12",
+      "30",
+      "38"
+    ]
+  },
+  {
+    "name": "PHYSALIS",
+    "aliases": [
+      "physallis"
+    ],
+    "artist": "TAG",
+    "basis": "User supplied",
+    "count": 4,
+    "levels": [
+      "22",
+      "32",
+      "36",
+      "44"
+    ]
+  },
+  {
+    "name": "Save Yourself",
+    "aliases": [],
+    "artist": "litmus",
+    "basis": "User supplied",
+    "count": 3,
+    "levels": [
+      "15",
+      "34",
+      "43"
+    ]
+  },
+  {
+    "name": "Alice in Misanthrope",
+    "aliases": [
+      "Alice in Misanthrope -厭世アリス-"
+    ],
+    "artist": "LeaF",
+    "basis": "User supplied",
+    "count": 3,
+    "levels": [
+      "23",
+      "35",
+      "43"
+    ]
+  },
+  {
+    "name": "Aleph-0",
+    "aliases": [
+      "Aleph 0",
+      "Aleph - Zero (ℵ_0)",
+      "ℵ₀"
+    ],
+    "artist": "LeaF",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Assault TAXI",
+    "aliases": [
+      "어썰트 택시"
+    ],
+    "artist": "∀S∀|ASA",
+    "basis": "User supplied",
+    "count": 0,
+    "levels": []
+  },
+  {
+    "name": "Halcyon",
+    "aliases": [],
+    "artist": "xi",
+    "basis": "Additional match",
+    "source": "https://wikiwiki.jp/piujpn/Halcyon",
+    "count": 1,
+    "levels": [
+      "30"
+    ]
+  },
+  {
+    "name": "Rush-Hour",
+    "aliases": [],
+    "artist": "litmus",
+    "basis": "Additional match",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs",
+    "count": 4,
+    "levels": [
+      "26",
+      "31",
+      "43",
+      "44"
+    ]
+  },
+  {
+    "name": "Bamboo",
+    "aliases": [
+      "竹"
+    ],
+    "artist": "立秋|RISH",
+    "basis": "Additional match",
+    "source": "https://wikiwiki.jp/piujpn/Pump%20It%20Up%20RISE/楽曲収録リスト",
+    "note": "Pump title Bamboo; BMS title 竹. PIU RISE.",
+    "count": 2,
+    "levels": [
+      "34",
+      "45"
+    ]
+  },
+  {
+    "name": "Party 4U (Holy Nite Mix)",
+    "aliases": [
+      "Party 4U \"holy nite mix\""
+    ],
+    "artist": "cranky",
+    "basis": "Additional match",
+    "source": "https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs",
+    "note": "Pump It Up Infinity uses a remastered version.",
+    "count": 2,
+    "levels": [
+      "29",
+      "41"
+    ]
+  }
+]
