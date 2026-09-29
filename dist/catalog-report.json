@@ -201,8 +201,11 @@
     ],
     "artist": "LeaF",
     "basis": "User supplied",
-    "count": 0,
-    "levels": []
+    "count": 2,
+    "levels": [
+      "22",
+      "40"
+    ]
   },
   {
     "name": "Kokugen Kairou Labyrinth",

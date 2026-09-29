@@ -27,6 +27,16 @@ def main():
         with urllib.request.urlopen(SOURCE, timeout=45) as response:
             snapshot.write_bytes(response.read())
     rows = json.loads(snapshot.read_text(encoding='utf-8-sig'))
+    normal_count = len(rows)
+    supplements = json.loads((ROOT / 'supplemental-charts.json').read_text(encoding='utf-8'))
+    for entry in supplements:
+        original = entry['record']
+        level = entry['level']
+        assert original['comment'].endswith('→' + level), 'Supplement rating must be documented upstream'
+        assert not any(row['md5'] == original['md5'] for row in rows), 'Supplement now exists in normal source; reconcile it'
+        rows.append(dict(original, level=level,
+                         comment=entry['chart'] + ' — ' + original['comment'] + ' · Excluded upstream for BGA gore; rating retained from source comment.',
+                         source_url=entry['source_url'], source_category=original['level']))
     catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8-sig'))
     allowed = {str(i) for i in range(1, 46)} | {'45+'}
     included, catalog_report, mapping = [], [], {}
@@ -47,11 +57,11 @@ def main():
     header = {'name':'Pump × PMS — Normal (1–45+)', 'symbol':'PIU Lv', 'data_url':url('data.json'), 'level_order':list(range(1,46))+['45+']}
     for filename, data in [('data.json',included),('header.json',header),('catalog-report.json',catalog_report)]:
         (dist / filename).write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n',encoding='utf-8')
-    payload = {'rows':included,'catalog':catalog_report,'mapping':mapping,'source':SOURCE_PAGE,'snapshot':'2026-09-28'}
+    payload = {'rows':included,'catalog':catalog_report,'mapping':mapping,'source':SOURCE_PAGE,'snapshot':'2026-09-28','updated':'2026-09-29'}
     (dist / 'data.js').write_text('window.PMS_DATA = '+json.dumps(payload,ensure_ascii=False).replace('<','\\u003c')+';\n',encoding='utf-8')
     page = (ROOT / 'page.html').read_text(encoding='utf-8')
     (dist / 'index.html').write_text(page.replace('@@HEADER_URL@@',html.escape(url('header.json'),quote=True)),encoding='utf-8')
-    summary = {'source_charts':len(rows),'included_charts':len(included),'matched_songs':sum(bool(s['count']) for s in catalog_report),'checked_songs':len(catalog),'missing':[s['name'] for s in catalog_report if not s['count']]}
+    summary = {'source_charts':normal_count,'supplemental_charts':len(supplements),'included_charts':len(included),'matched_songs':sum(bool(s['count']) for s in catalog_report),'checked_songs':len(catalog),'missing':[s['name'] for s in catalog_report if not s['count']]}
     (ROOT / 'build-summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps(summary,ensure_ascii=False))
 

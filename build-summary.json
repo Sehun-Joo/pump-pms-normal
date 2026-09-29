@@ -1,7 +1,8 @@
 {
   "source_charts": 7264,
-  "included_charts": 48,
-  "matched_songs": 21,
+  "supplemental_charts": 2,
+  "included_charts": 50,
+  "matched_songs": 22,
   "checked_songs": 38,
   "missing": [
     "* this game does not exist *",
@@ -12,7 +13,6 @@
     "GOODBOUNCE",
     "CO5M1C R4ILR0AD",
     "Re:End of a Dream",
-    "mopemope",
     "Kokugen Kairou Labyrinth",
     "F(R)IEND",
     "Life is PIANO",

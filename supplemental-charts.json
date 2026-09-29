@@ -1,0 +1,56 @@
+[
+  {
+    "source_url": "https://pmsdatabase.github.io/excluded_pmsdatabase/excluded_pmsdatabase_score.json",
+    "snapshot": "2026-09-29",
+    "level": "22",
+    "chart": "Normal",
+    "record": {
+      "level": "グロゴア",
+      "pdb_id": "200907",
+      "no": "21909",
+      "title": "もぺもぺ",
+      "sha256": "567e598342272cfe6b8d49b1eaffab322351921bb355bb3effba88ebb6a53131",
+      "md5": "dbfe9cdaf0fae957ab68ef013d925829",
+      "video1": "",
+      "video2": "",
+      "url_diff": "",
+      "name_diff": "sugar (BOFU2017PMS)",
+      "url": "https://pmsdifficulty.xxxxxxxx.jp/BOFPMS.html",
+      "artist": "LeaF",
+      "comment": "難易度更新:lv20→22",
+      "memo": "BOF2017",
+      "state": "3",
+      "notes": "250",
+      "total": "250",
+      "chart_metadata_source": "beatoraja",
+      "lr2_bmsid": "254749"
+    }
+  },
+  {
+    "source_url": "https://pmsdatabase.github.io/excluded_pmsdatabase/excluded_pmsdatabase_score.json",
+    "snapshot": "2026-09-29",
+    "level": "40",
+    "chart": "Hyper",
+    "record": {
+      "level": "グロゴア",
+      "pdb_id": "200908",
+      "no": "21910",
+      "title": "もぺもぺ",
+      "sha256": "bf8c98cb0a42888c7dee229ecad7bbabb16fea8c474862eca10d0a70b6b5e091",
+      "md5": "ad7b608ef1061e79e156838b9724190c",
+      "video1": "",
+      "video2": "",
+      "url_diff": "",
+      "name_diff": "sugar (BOFU2017PMS)",
+      "url": "https://pmsdifficulty.xxxxxxxx.jp/BOFPMS.html",
+      "artist": "LeaF",
+      "comment": "難易度更新:lv39→40",
+      "memo": "BOF2017",
+      "state": "3",
+      "notes": "634",
+      "total": "250",
+      "chart_metadata_source": "beatoraja",
+      "lr2_bmsid": "254769"
+    }
+  }
+]

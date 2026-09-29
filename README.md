@@ -6,9 +6,15 @@ A curated subset of [PMS Database Normal Records](https://pmsdifficulty.xxxxxxxx
 
 The source snapshot is dated **2026-09-28**. The fork includes the normal table's levels **1–45 and 45+**. Insane-table levels and unassessed `?` rows are excluded. Levels describe PMS difficulty, not Pump difficulty.
 
+## Supplemental easier charts
+
+Updated **2026-09-29** with mopemope (もぺもぺ) Normal **Lv22 / 250 notes** and Hyper **Lv40 / 634 notes**. These are 9-button PMS charts. They are listed in the upstream [excluded records](https://pmsdifficulty.xxxxxxxx.jp/excluded_PMSdifficulty.html) under the BGA gore category; their source comments preserve rating corrections of 20→22 and 39→40. These are documented ratings, not estimates from note density.
+
+`supplemental-charts.json` retains both original records, source URL and the explicit numeric level used for import. The build does not automatically import other excluded records. Existing five-button charts remain included.
+
 ## Use
 
-Open the GitHub Pages URL to browse and search. Add the same public page URL to a compatible BMS/PMS player's difficulty-table settings. The page exposes `bmstable` metadata pointing to `header.json`, which points to `data.json`. Hashes, original titles, chart levels, author credits, comments and links are preserved from the source. Original grade courses are omitted because they contain charts outside this subset.
+Open the GitHub Pages URL to browse and search. Add the same public page URL to a compatible BMS/PMS player's difficulty-table settings. The page exposes `bmstable` metadata pointing to `header.json`, which points to `data.json`. Hashes, original titles, author credits and links are preserved from the source. Supplemental rows annotate the original comments and use their documented numeric ratings. Original grade courses are omitted because they contain charts outside this subset.
 
 This repository contains table metadata, not music or chart files. Follow the original song/package and chart links to obtain those separately. External downloads have not been tested.
 
@@ -35,7 +41,7 @@ The GitHub Actions workflow rebuilds from the committed snapshot on each push; i
 - `Bamboo` matches `竹`; `Kokugen Kairou Labyrinth` matches `刻限回廊ラビリンス`; `F(R)IEND` matches `F℟IEND`; `L (PIU Edit)` matches Ice's `L`.
 - `Destr0yer` by Sakuzyo is distinct from `Destroyer` by Tlahuizcalpantecuhtli. Only Sakuzyo's song is selected.
 - The 5-button NightTheater and Rush-Hour entries are retained and clearly labeled.
-- A missing match means absent from this normal-table snapshot, not absent from Pump or unavailable in all PMS sources.
+- A missing match means absent from the checked normal snapshot and curated supplements, not absent from Pump or unavailable in all PMS sources.
 - This is a curated starting set, not a claim to be the complete licensing catalog.
 
 ## Attribution
